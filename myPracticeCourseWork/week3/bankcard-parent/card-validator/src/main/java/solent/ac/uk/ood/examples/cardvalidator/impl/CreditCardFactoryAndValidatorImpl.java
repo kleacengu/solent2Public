@@ -99,7 +99,7 @@ public class CreditCardFactoryAndValidatorImpl implements CreditCardFactoryAndVa
              return CardOrganisation.VISA;
          }
            
-           return throw Exception("Invalid CardCompany");
+           throw new IllegalArgumentException("Invalid CardCompany");
     }
     
 
