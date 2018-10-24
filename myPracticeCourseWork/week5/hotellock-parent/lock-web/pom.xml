@@ -137,6 +137,13 @@
             <scope>compile</scope>
         </dependency>
         
+         <dependency>
+            <groupId>solent.ac.uk.ood.examples</groupId>
+            <artifactId>lock-roomlock</artifactId>
+            <version>${project.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        
         <!-- Jetty dependencies -->
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
